@@ -63,12 +63,16 @@ section {
   min-height: 200px;
   padding: 6% 0;
   background-color: #bbb;
+  position: relative;
 }
-
-
 
 section:nth-child(even) {
   background-color: #ddd;
+}
+
+.tech-stack-link  {
+  position: absolute;
+  left: 42%;
 }
 
 
